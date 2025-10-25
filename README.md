@@ -1,0 +1,241 @@
+DISCLAIMER: I DIN´T WRITE THE SCRIPT. CR TO: (https://github.com/puckzxz)
+
+I Changed the background and The Home Icon from discord.
+For those who don´t know how to do it, or don´t find a Working one ^^
+
+
+--------------------------------------------------------------------------
+Script here, if you wanna see it properly 
+
+/**
+* @name MarinKitagawa
+* @author Kivaarii. / Script from https://github.com/puckzxz
+* @version 3.2
+* @description Marin Kitagawa by Kivaarii. #BiggestMarinSimp
+* @source https://github.com/MarinKitagawaLovr1 / https://github.com/puckzxz/NotAnotherAnimeTheme
+* @updateUrl https://github.com/MarinKitagawaLovr1 / https://raw.githubusercontent.com/puckzxz/NotAnotherAnimeTheme/master/NotAnotherAnimeTheme.theme.css
+*/
+
+@import url(https://puckzxz.github.io/NotAnotherAnimeTheme/build/v3/naat.v3.css);
+
+/*
+  To make editing this theme easier I recommend using Notepad++
+  you can download it for free here https://notepad-plus-plus.org/download/
+*/
+
+/* Any images you use MUST end with .jpg or .png or any other image extension */
+
+:root {
+  /*
+    Theme Background
+  */
+  --theme-background-image: url(https://images3.alphacoders.com/120/thumb-1920-1204640.png);
+
+  /*
+    Main Theme Color
+  */
+  --main-theme-color: rgb(67, 181, 129);
+
+  /*
+    Main Theme Transparency
+  */
+  --theme-transparency: rgba(0, 0, 0, 0.4);
+
+  /*
+    Home Icon Image
+  */
+  /* --home-icon-image: url(https://initiate.alphacoders.com/content_requests/1443418-final.png); */
+  --home-icon-image: url(https://initiate.alphacoders.com/content_requests/1443418-final.png);
+
+  /*
+    Change your friends icon image position
+  */
+  --home-icon-image-position: center center;
+
+  /*
+    Change your friends icon image zoom
+  */
+  --home-icon-image-zoom: 150%;
+
+  /*
+    Server Listing Width
+    Single Column:  62px
+    Double Column:  126px
+    Triple Column:  184px
+    Quad Column:    242px
+  */
+  --server-listing-width: 62px;
+
+  /*
+    Font Size
+  */
+  --font-size: 100%;
+
+  /*
+    Mention colors
+  */
+  --mention-color: rgba(247, 182, 70, 0.05);
+  --mention-sider: rgba(250, 166, 26, 1);
+  --mention-hover-color: rgba(250, 166, 26, 0.08);
+
+  /*
+    Server category hover color
+  */
+  --category-hover-color: rgb(194, 162, 58);
+
+  /*
+    Change the unread server animation.
+    Replace it with "none" in order to remove any animations and use the main color instead
+  */
+  --unread-server-animation: rainbow;
+
+  /*
+    Video / Screen share buttons
+  */
+  --video-screen-button-background-color: rgba(200, 200, 200, 0.2);
+  --video-screen-button-foreground-color: white;
+  --video-screen-button-background-hovor-color: rgba(200, 200, 200, 0.4);
+  --video-screen-button-foreground-hovor-color: white;
+
+  /*
+    Role Title Color
+  */
+  --member-listing-role-color: var(--main-theme-color);
+
+  /*
+    Small User Popout
+  */
+  --small-user-popout-background-image: var(--theme-background-image);
+  --small-user-popout-background-transparency: rgba(0, 0, 0, 0.6);
+  --small-user-popout-background-image-position: center;
+
+  /*
+    Big User Popout
+  */
+  --big-user-popout-background-image: var(--theme-background-image);
+  --big-user-popout-background-transparency: rgba(0, 0, 0, 0.6);
+  --big-user-popout-background-image-position: center;
+
+  /*
+    Code Markup
+  */
+  --code-markup-background-color: rgba(0, 0, 0, 0.6);
+  --code-markup-border: 1px solid transparent;
+
+  /*
+    Message Box Transparency
+  */
+  --message-box-transparency: rgba(0, 0, 0, 0.6);
+
+  /*
+    Embed Background Transparency
+  */
+  --embed-background-transparency: rgba(0, 0, 0, 0.6);
+
+  /*
+    Message Hover Buttons
+  */
+  --message-hover-buttons-background: rgba(200, 200, 200, 0.1);
+
+  /*
+    Context Menu Transparency
+  */
+  --context-menu-transparency: rgba(15, 15, 15, 0.8);
+
+  /*
+    Add Server / Discovery Icon
+  */
+  --add-discover-icon-transparency: rgba(200, 200, 200, 0.15);
+  --add-discover-icon-color: #43b581;
+
+  /*
+    Channel Limit Number Color
+  */
+  --channel-limit-count-color: var(--channels-default);
+  --channel-limit-background-left: rgba(200, 200, 200, 0.1);
+  --channel-limit-background-right: rgba(200, 200, 200, 0.2);
+
+  /*
+    Scrollbar Colors
+  */
+  --scrollbar-color: rgba(200, 200, 200, 0.2);
+
+  /*
+    Unread Message Divider
+  */
+  --unread-message-divider-color: #f04747;
+  --unread-message-divider-font-color: #fff;
+
+  /*
+    New Messages Bar Color
+  */
+  --new-messages-bar-background-color: #7289da;
+  --new-messages-bar-font-color: #fff;
+
+  /*
+    Emoji Menu
+  */
+  --emoji-menu-background-color: rgba(0, 0, 0, 0.6);
+  --emoji-menu-sider-background-color: rgba(0, 0, 0, 0);
+  --emoji-menu-server-header-background-color: rgba(0, 0, 0, 0.8);
+  --emoji-menu-bottom-bar-background-color: black;
+  --emoji-menu-search-bar-background-color: rgba(200, 200, 200, 0.1);
+
+  /*
+    Message Search
+  */
+  --message-search-menu-background-color: rgba(0, 0, 0, 0.8);
+  --message-search-container-background-color: rgba(0, 0, 0, 0.6);
+  --message-search-result-background-color: rgba(200, 200, 200, 0.05);
+
+  /*
+    Channel colors
+  */
+  --text-voice-channel-color: rgb(142, 146, 151);
+  --text-voice-channel-hover-color: #dcddde;
+  --text-voice-channel-selected-text-color: #fff;
+  --unread-text-channel-color: #fff;
+  --unread-text-channel-bubble-color: var(--main-theme-color);
+
+  /*
+    Folders
+  */
+  --folder-background-color: #2f3136;
+  --expanded-folder-background-color: transparent;
+
+  /*
+    Reactions
+  */
+  --reaction-emoji-background-color: rgba(0, 0, 0, 0);
+  --reaction-emoji-border-color: 1px solid transparent;
+  --reaction-emoji-hover-background-color: rgba(255, 255, 255, 0.1);
+  --reaction-emoji-hover-border-color: rgba(255, 255, 255, 0.2);
+
+  /* Chat gradient */
+  .chatGradientBase__36d07 { display: none; }
+
+  /* Temporary probably, fixes discord bottom aligned chat experiment */
+  .align-chat-input .scrollerSpacer__36d07 {
+    height: 30px;
+}
+
+  /* Make typing dots have text shadow */
+  .typingDots_b88801 {
+    /* For performance and unique name reasons */ --catmeowshadow: 0 0 30px black, 0 0 10px black, 0 0 10px black;
+    overflow: visible !important;
+    /* The people text*/
+    .text_b88801 {
+        overflow: visible !important;
+        text-shadow: var(--catmeowshadow), var(--catmeowshadow);
+    }
+
+    /* the Actual typing dots */
+    .dots__5ad89 {
+        background: rgba(0, 0, 0, 0.65);
+        box-shadow: var(--catmeowshadow);
+        border-radius: 100%;
+        overflow: visible;
+    }
+}
+
+}
